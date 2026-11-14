@@ -1,0 +1,85 @@
+{
+  "engine_sha256": "cb335fed525e9499cfc6863f5c490b6a271b310e36465cb3c443345a00828843",
+  "scope": "Executed numerical parity on 12 deterministic finite synthetic signals; not EEG or clinical validation",
+  "scipy": "1.15.3",
+  "numpy": "2.2.6",
+  "cases": [
+    {
+      "fs": 100,
+      "target_segment_seconds": 1,
+      "nperseg": 64,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "fs": 100,
+      "target_segment_seconds": 2,
+      "nperseg": 128,
+      "max_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "fs": 100,
+      "target_segment_seconds": 4,
+      "nperseg": 256,
+      "max_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "fs": 128,
+      "target_segment_seconds": 1,
+      "nperseg": 128,
+      "max_absolute_error": 2.842170943040401e-14
+    },
+    {
+      "fs": 128,
+      "target_segment_seconds": 2,
+      "nperseg": 256,
+      "max_absolute_error": 1.9895196601282805e-13
+    },
+    {
+      "fs": 128,
+      "target_segment_seconds": 4,
+      "nperseg": 512,
+      "max_absolute_error": 2.2737367544323206e-13
+    },
+    {
+      "fs": 256,
+      "target_segment_seconds": 1,
+      "nperseg": 256,
+      "max_absolute_error": 4.263256414560601e-14
+    },
+    {
+      "fs": 256,
+      "target_segment_seconds": 2,
+      "nperseg": 512,
+      "max_absolute_error": 2.842170943040401e-14
+    },
+    {
+      "fs": 256,
+      "target_segment_seconds": 4,
+      "nperseg": 1024,
+      "max_absolute_error": 5.684341886080801e-13
+    },
+    {
+      "fs": 512,
+      "target_segment_seconds": 1,
+      "nperseg": 512,
+      "max_absolute_error": 2.842170943040401e-14
+    },
+    {
+      "fs": 512,
+      "target_segment_seconds": 2,
+      "nperseg": 1024,
+      "max_absolute_error": 5.684341886080802e-14
+    },
+    {
+      "fs": 512,
+      "target_segment_seconds": 4,
+      "nperseg": 2048,
+      "max_absolute_error": 5.684341886080802e-14
+    }
+  ],
+  "tolerance": {
+    "rtol": 1e-09,
+    "atol": 1e-10
+  },
+  "system_environment_note": "System NumPy failed to import due to architecture mismatch; comparison ran in a separate pinned temporary venv."
+}

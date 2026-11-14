@@ -1,0 +1,10 @@
+{
+  "file_key":"2p2ZZVMroM2WkiiWfx1g2m",
+  "url":"https://www.figma.com/design/2p2ZZVMroM2WkiiWfx1g2m",
+  "session_id":"5a052f2d-272a-4dae-a72f-54a7453eb6b3",
+  "status":"blocked_before_composition",
+  "reason":"Figma Starter MCP tool-call limit reached",
+  "completed":["Created project file","Discovered libraries and relevant assets"],
+  "incomplete":["Compose editable desktop/mobile design","Visual verification of Figma output"],
+  "note":"An asset-inspection call encountered an unsupported variable.type read before the rate-limit response. No completed screen was created. No plan or permission changes were made."
+}
