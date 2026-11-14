@@ -21,7 +21,7 @@ export function welch(samples,fs,segmentSeconds=2){
  return {frequencies:Array.from(psd,(_,k)=>k*fs/n),density:used?Array.from(psd):null,nperseg:n,segment_seconds:n/fs,overlap_samples:step,df:fs/n,segments_used:used,segments_rejected:rejected,segments_total:total,tail_samples:samples.length-lastEnd,window:'periodic Hann',detrend:'segment mean',scaling:'one-sided density; uV^2/Hz'};
 }
 export function bandPower(spectrum,low,high,fs){
- if(!spectrum.density||high>fs/2)return null;
+ if(!spectrum.density||high>fs/2||!spectrum.frequencies.some(f=>f>=low&&f<high))return null;
  return spectrum.density.reduce((sum,p,i)=>sum+(spectrum.frequencies[i]>=low&&spectrum.frequencies[i]<high?p*spectrum.df:0),0);
 }
 export function analyzeChannel(channel,start,end,{segmentSeconds=2,threshold=150}={}){
