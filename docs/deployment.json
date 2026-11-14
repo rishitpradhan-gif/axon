@@ -1,0 +1,11 @@
+{
+  "date":"2026-11-14",
+  "url":"https://rp-axon.vercel.app",
+  "deployment_id":"dpl_Hbv9pW5k4tEtAVvNKoYifo8FQnf7",
+  "runtime_source_commit":"d3f339e",
+  "production_browser_checks":"Passed anonymous desktop/mobile full workflow",
+  "source_zip_sha256":"c0f85cfdb4dcfb45913d9b1e60de0b1dc439866929900a16bd703880715c17f6",
+  "download_verified":"Byte-identical to local package; environment/credential files excluded",
+  "git_integration":"Vercel GitHub connection failed; published through CLI. Automatic Git deployment is not configured.",
+  "figma_status":"File created but composed screen blocked by Starter MCP quota. No finished Figma design claimed."
+}
