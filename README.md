@@ -1,5 +1,9 @@
 # Axon
 
+[![Axon — working application preview](https://raw.githubusercontent.com/rishitpradhan-gif/rishitpradhan-gif/main/assets/axon-workbench.png)](https://rp-axon.vercel.app)
+
+**[Open application ↗](https://rp-axon.vercel.app)** · [Portfolio case study](https://rishitpradhan.com/projects/axon/)
+
 A browser-local EEG signal inspection workbench. Explore raw channels, select time windows, pin a spectral reference, review missing data and amplitude flags, and export reproducible analysis metadata.
 
 Live: https://rp-axon.vercel.app
